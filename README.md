@@ -1,5 +1,8 @@
 # ExportForecasting
 
+Done By : ETTAOUIL Oussama & BENZHA Marieme 
+2A GL ENSIAS
+
 Prévision de la demande des produits du terroir Marocain sur le marché national et international.
 
 Objectifs :
