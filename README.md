@@ -40,11 +40,32 @@ Pour modéliser les données et effectuer des prévisions, vous pouvez exécuter
 
 ## Project Pipline:
 
-                           ______________________                                          _____________________
-ExportData_00_23.csv  ---> | Data_Cleaning.ipynb | ---->  folder: Data intermidiate ----> | Visualisation.ipynb |
-                           |_____________________|                                  |     |_____________________|
-                                                                                    |     ______________
-                                                                                    |---> | Model.ipynb |
-                                                                                          |_____________|
+      _________          ____________________          ___________________
+     |         |        |                    |        |                   |
+     |         |        | Data Cleaning      |        |                   |
+     | Dataset |   ---> | (Data_Cleaning.ipynb)|  ---> | Data Intermediate|
+     |         |        |____________________|        |___________________|
+     |_________|
+
+
+                                  |
+                                  v
+
+      ___________________          ____________________
+     |                   |        |                    |
+     |                   |        |  Visualization     |
+     | Data Intermediate|   ---> | (Visualisation.ipynb)|
+     |___________________|        |____________________|
+
+
+                                  |
+                                  v
+
+      ___________________          ____________________
+     |                   |        |                    |
+     |                   |        |    Model           |
+     | Data Intermediate|   ---> | (Model.ipynb)       |
+     |___________________|        |____________________|
+
 
 
