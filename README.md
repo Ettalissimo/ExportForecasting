@@ -49,7 +49,6 @@ Pour modéliser les données et effectuer des prévisions, vous pouvez exécuter
      | Dataset |   ---> | (Data_Cleaning.ipynb)|  ---> | Data Intermediate|
      |         |        |____________________|        |___________________|
      |_________|
-ExportData_00_23.csv
 
                                   |
                                   v
